@@ -1,0 +1,17 @@
+pluginManagement {
+    plugins {
+        id("java")     // 可选：预声明插件版本
+        id("org.springframework.boot") version "3.5.4"
+        id("io.spring.dependency-management") version "1.1.7"
+    }
+    repositories {
+        maven { url 'https://jitpack.io' }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'heiiyo_alibaba'
+include 'heiiyo_alibaba_api'
+include 'heiiiyo_alibaba_provider'
+

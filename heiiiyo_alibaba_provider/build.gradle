@@ -1,0 +1,5 @@
+dependencies{
+    implementation project(':heiiyo_alibaba_api')
+    implementation 'org.apache.dubbo:dubbo-spring-boot-starter:3.3.0'
+    implementation 'org.apache.dubbo:dubbo-nacos-spring-boot-starter:3.3.0'
+}
